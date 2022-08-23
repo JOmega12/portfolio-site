@@ -297,6 +297,14 @@
    position:relative;
    overflow:hidden;
    max-width: 500px;
+   max-height: 350px;
+}
+
+.project-image .image-fluid-container img{
+  object-fit: fill;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%
 }
 
 .footer {
