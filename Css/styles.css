@@ -62,10 +62,85 @@
 
 
 .hero-bg {
+   position: relative;
    margin-top: 50px;
    max-width: 1800px;
 }
 
+
+.shape .triangle{
+   z-index: -2;
+   position: absolute;
+   width: 100%;
+}
+
+.triangle {
+   -webkit-text-stroke: 12px black;
+   color: transparent;
+   font-size: 200px;
+   text-align: center;
+ }
+
+.sh1 {
+   right: -460px;
+   top: -50px;
+   width: 450px;
+   opacity: 0.2;
+   transform-origin: center;
+   animation: shape linear 30s infinite reverse;
+   -webkit-text-stroke: 5px black;
+}
+
+.shape .sh2 {
+   right: 550px;
+   top: -10px;
+   width: 750px;
+   font-size: 400px;
+   opacity: 0.1;
+   transform-origin: center;
+   animation: shape linear 30s infinite reverse;
+}
+@keyframes shape {
+   to {
+      transform: rotate(360deg);
+   }
+}
+
+.shape .sh3 {
+   top: 0;
+   left: 0;
+   width: 250px;
+   font-size: 200px;
+   opacity: 0.1;
+   transform-origin: center;
+   animation: sh3 linear 20s infinite;
+   transform: translate(-200px, -100px) rotate(0deg);
+   -webkit-text-stroke: 6px black;
+}
+
+@keyframes sh3 {
+   100% {
+      transform: translate(1300px, 600px) rotate(360deg);
+   }
+}
+
+.shape .sh4 {
+   left: 0;
+   bottom: 50px;;
+   width: 150px;
+   font-size: 200px;
+   opacity: 0.1;
+   transform-origin: center;
+   animation: sh4 linear 20s infinite;
+   transform: translate(700px, 80px) rotate(0deg);
+   -webkit-text-stroke: 6px black;
+}
+
+@keyframes sh4 {
+   100% {
+      transform: translate(1200px, -800px) rotate(360deg);
+   }
+}
 
 .marquee {
    display: grid;
