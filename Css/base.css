@@ -68,8 +68,8 @@ div, footer, h3, h4, li, p {
    /* max-width: 1800px; */
    /* text-align: center; */
    justify-content: center;
-   margin: 0 80px;
-   margin-top: 50px;
+   margin: 0 5rem;
+   margin-top: 3.125rem;
 }
 
 ::-webkit-scrollbar {
