@@ -2,7 +2,7 @@
    color: var(--color-text);
    background-color: var(--bg);
    position: relative;
-   max-width: 112.5rem;
+   max-width: 120rem;
 }
 
 .container-header {
@@ -35,6 +35,17 @@
    grid-template-columns: auto;
 }
 
+.burger { 
+   /* grid-column: 3 / 4; */
+   font-size: 2.25rem;
+   /* right: 0; */
+   /* justify-content: end; */
+   display:none;
+   cursor: pointer;
+   /* margin-right: 0; */
+   /* left: 10px; */
+   right: 0;
+}
 .ul-defaults-none .nav-item a {
    color: #fff;
 }
@@ -236,8 +247,25 @@
    color: black;
 }
 
-.cv {
+
+.components-para-container .cv {
+   border-radius: 5px;
+   margin: 0 0.2rem;
+   /* width: 15rem; */
+   text-align: center;
+   justify-content: center;
+}
+
+.components-para-container .cv a {
    color: #ff715b;
+   border: black 2px solid;
+   border-radius: 5px;
+   padding: 5px;
+
+}
+
+.components-para-container .cv a:hover {
+   background-color: rgb(18,30,39, 0.8);
 }
 
 
