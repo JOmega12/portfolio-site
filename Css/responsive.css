@@ -26,6 +26,9 @@
 }
 
 @media (max-width: 450px ) {
+
+   /* footer { overflow-x: hidden; } */
+
    .header {
       width: 1500px;
       /* height: 500px; */
@@ -97,4 +100,165 @@
       border: none;
    }
 
+   .container{
+      width: 1300px;
+      margin: 0 90px 0 170px;
+   }
+
+   .hero-bg {
+      justify-content: flex-end;
+   }
+
+   .marquee {
+      display: flex;
+      flex-direction: column;
+      margin: 130px 30px 0 110px;
+      gap: 50px;
+   }
+   
+   .photo-profile {
+      height: 50rem;
+      width: 42rem;
+   }
+
+   .description-marquee {
+      display: flex;
+      flex-direction: column;
+      margin: 0 20px 0 20px;
+   }
+
+   .components-hero {
+      font-size: 95px;
+   }
+
+   .components-skill {
+      font-size: 50px;
+      gap: 10px;
+   }
+
+   .components-para-container {
+      padding: 0;
+   }
+
+   .components-para-container .components-paragraph{
+      font-size: 50px;
+      line-height: 70px;
+   }
+   
+   .components-para-container .cv {
+      margin: 30px;
+      font-size: 70px;
+   }
+
+   .social-icons {
+      gap: 50px;
+   }
+
+   .si-container{
+      padding: 2rem;
+      margin-top: 20px;
+      width: 150px;
+
+      /* gap: 50px */
+   }
+
+   .si-container a{
+      /* font-size: 50px; */
+      /* font-size: 150px; */
+      width: 250px;
+      height: 550px;
+   }  
+
+   .mini-container {
+      margin-top: 150px;
+   }
+
+   .project-header h1 {
+      text-align: center;
+      font-size: 150px;
+   }
+
+   .project-container {
+      display: flex;
+   }
+
+   .proj {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      margin: 75px 0 75px 0;
+   }
+
+   .project-title {
+      font-size: 125px;
+   }
+
+   .project-tags {
+      gap: 20px;
+
+   }
+
+   .project-tags  li{
+      /* width: 150px; */
+      font-size: 50px;
+   }
+
+   .button {
+      height: 100px;
+      font-size: 50px;
+      margin-top: 20px;
+      width: 20rem;
+   }
+
+   .highlight-button {
+      display:none;
+   }
+
+   .project-description {
+      font-size: 70px;
+   }
+
+
+   .project-image {
+      margin-bottom: 300px;
+      /* height: 550px; */
+   }
+
+   .project-image .image-fluid-container {
+      max-width: 50rem;
+      max-height: 29rem;
+      height: 850px;
+   }
+
+
+   .card-popup-box {
+      display: none;
+   }
+   
+
+   .footer {
+      width: 1500px
+   }
+
+   .footer .footer-wrap {
+      flex-wrap: wrap;
+      flex-direction: column;
+      gap: 50px;
+      margin-left: 0;
+   }
+
+   .footers {
+      font-size: 150px;
+      justify-content: center;
+   }
+
+   .left-foot p {
+      font-size: 100px;
+      width: 1300px;
+   }
+
+   .right-foot {
+      display: none;
+      margin-bottom: 75px;
+   }
 }
