@@ -1,6 +1,10 @@
 @media (max-width: 768px) {
+
+   /* html, body { overflow-x: hidden; } */
+
+
    .header {
-      width: 1300px;
+      width: 1400px;
    }
 
    .ul-defaults-none {
@@ -21,13 +25,20 @@
    }
 
    .footer {
-      width: 1200px;
+      width: 1400px;
    }
 }
 
+
+
+
+
+
+
+
 @media (max-width: 450px ) {
 
-   /* footer { overflow-x: hidden; } */
+   /* html, body { overflow-x: hidden; } */
 
    .header {
       width: 1500px;
@@ -248,7 +259,7 @@
    }
 
    .footers {
-      font-size: 150px;
+      font-size: 100px;
       justify-content: center;
    }
 
